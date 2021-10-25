@@ -1,8 +1,7 @@
-Feature: sample karate test script
-  for help, see: https://github.com/intuit/karate/wiki/IDE-Support
+Feature: sample test PetStore
 
   Background:
-    * def headers = read('classpath:petStore/support/headers.yaml')
+    #* def headers = read('classpath:petStore/support/headers.yaml')
     * url 'https://petstore.swagger.io/v2'
 
 
